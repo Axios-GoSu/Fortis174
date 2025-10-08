@@ -1,0 +1,21 @@
+{
+  // Автоудаление лишних пробелов и пустых строк при сохранении
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  // Автоматическое форматирование при сохранении
+  "editor.formatOnSave": true,
+  // Принудительный перенос строк (Word Wrap)
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 80,
+  "editor.wrappingIndent": "same", // можно изменить на "indent" для сдвига перенесённых строк
+  // Удаляет пустые строки с помощью расширения
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
+  // Настройки для Prettier (если установлен)
+  "prettier.printWidth": 80,
+  "prettier.proseWrap": "always",
+  "prettier.trailingComma": "es5",
+  "prettier.singleQuote": true
+}

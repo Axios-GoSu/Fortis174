@@ -1,0 +1,86 @@
+<br />
+<b>Notice</b>
+: Undefined variable: phone in
+<b>/var/www/w98228c3/data/www/xn---24-eddjhay8bga0ajol7r.xn--p1ai/2.php</b>
+on line
+<b>9</b>
+<br />
+<br />
+<b>Warning</b>
+: Cannot modify header information - headers already sent by (output started at
+/var/www/w98228c3/data/www/xn---24-eddjhay8bga0ajol7r.xn--p1ai/2.php:9) in
+<b>/var/www/w98228c3/data/www/xn---24-eddjhay8bga0ajol7r.xn--p1ai/2.php</b>
+on line
+<b>17</b>
+<br />
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="refresh" content="3; url='index.html'" />
+    <title>Спасибо за заявку!</title>
+    <meta name="generator" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script type="text/javascript">
+      setTimeout('location.replace("/index.html")', 2000);
+      /*Изменить текущий адрес страницы через 2 секунды (2000 миллисекунд)*/
+    </script>
+  </head>
+  <body>
+    <p id="thx">Спасибо за заявку!</p>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (d, w, c) {
+        (w[c] = w[c] || []).push(function () {
+          try {
+            w.yaCounter51144221 = new Ya.Metrika2({
+              id: 51144221,
+              clickmap: true,
+              trackLinks: true,
+              accurateTrackBounce: true,
+              webvisor: true
+            });
+          } catch (e) {}
+        });
+        var n = d.getElementsByTagName('script')[0],
+          s = d.createElement('script'),
+          f = function () {
+            n.parentNode.insertBefore(s, n);
+          };
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'https://mc.yandex.ru/metrika/tag.js';
+        if (w.opera == '[object Opera]') {
+          d.addEventListener('DOMContentLoaded', f, false);
+        } else {
+          f();
+        }
+      })(document, window, 'yandex_metrika_callbacks2');
+    </script>
+  </body>
+  <script type="text/javascript">
+    function validateForm() {
+      var phoneInput = document.getElementById('phone').value;
+      var phoneError = document.getElementById('phone-error');
+      var agreementCheckbox = document.getElementById('agreement');
+      var agreementError = document.getElementById('agreement-error');
+      phoneError.innerHTML = '';
+      agreementError.innerHTML = '';
+      // Проверка номера телефона
+      if (!/^\d+$/.test(phoneInput)) {
+        phoneError.innerHTML = 'В данном поле необходимо только цифры вводить';
+        return false;
+      }
+      if (phoneInput.length < 10) {
+        phoneError.innerHTML = 'Вы ввели недостаточное количество цифр для номера телефона';
+        return false;
+      }
+      // Проверка чекбокса
+      if (!agreementCheckbox.checked) {
+        agreementError.style.display = 'block';
+        return false;
+      }
+      return true;
+    }
+  </script>
+</html>

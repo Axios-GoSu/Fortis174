@@ -1,0 +1,5 @@
+# Перенаправление с HTTP на HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} \.(html|htm)$ [NC]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
