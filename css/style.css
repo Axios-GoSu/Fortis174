@@ -231,7 +231,7 @@ col-sm-3 img {
 }
 /* Display 1 */
 .d1 {
-  padding-top: 100px;
+  padding-top: 2rem;
 }
 .d1 .line {
   border-left: 3px solid #ffc835;
@@ -261,7 +261,7 @@ col-sm-3 img {
 }
 /* Display 2 */
 .d2 {
-  padding: 100px 0;
+  padding: 2rem 0;
   background-color: #f8f8f8;
 }
 .d2 h6 {
@@ -270,7 +270,7 @@ col-sm-3 img {
 }
 /* Display 3 */
 .d3 {
-  padding: 50px 0;
+  padding: 2rem 0;
   border-bottom: 1px solid #c9c9c9;
 }
 .d3 .border {
@@ -292,7 +292,7 @@ col-sm-3 img {
 }
 /* Display 4 */
 .d4 {
-  padding: 75px 0 0;
+  padding: 2rem 0 0;
 }
 .d4 .border {
   padding: 30px;
@@ -321,7 +321,7 @@ col-sm-3 img {
 }
 /* Display 5 */
 .d5 {
-  padding: 50px 0;
+  padding: 2rem 0;
   background-color: #f8f8f8;
 }
 .d5 .content {
@@ -352,7 +352,7 @@ col-sm-3 img {
   background-position: center;
 }
 .d6 .content {
-  margin: 50px auto;
+  margin: 2rem auto;
 }
 .d6 .border {
   border: 1px solid #c9c9c9;
@@ -365,7 +365,7 @@ col-sm-3 img {
 .d7 {
   background-image: url('');
   background-size: cover;
-  padding: 100px 0;
+  padding: 2rem 0;
 }
 .d7 .border {
   border: 1px solid #c9c9c9;
@@ -388,7 +388,7 @@ col-sm-3 img {
 }
 /* Display 8 */
 .d8 {
-  padding-top: 50px;
+  padding-top: 2rem;
 }
 .d8 h2 {
   margin-bottom: 50px;
